@@ -1,3 +1,3 @@
 # pathvisualizer
 
-http://distracted-curran-37cab3.netlify.app/
+https://melodic-trifle-f095b7.netlify.app/
