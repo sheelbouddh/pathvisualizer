@@ -15,7 +15,7 @@ const Header = (props) => {
       props.end[0] !== -1 &&
       props.end[1] !== -1
     ) {
-      if (event.target.outerText === "Dijiktras") {
+      if (event.target.outerText === "Dijkstra") {
         console.log(event.target.outerText);
         const visitedNodesInOrder = dijkstra(
           [...props.grid],
@@ -95,7 +95,7 @@ const Header = (props) => {
   };
   return (
     <div className="headerdiv">
-      <Button onClick={onClickHandler}>Dijiktras</Button>
+      <Button onClick={onClickHandler}>Dijkstra</Button>
       <Button onClick={onClickHandler}>A-Star</Button>
       <Button onClick={onClickHandler}>Greedy BFS</Button>
       <Button onClick={onClickHandler}>DFS</Button>
